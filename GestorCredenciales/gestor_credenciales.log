@@ -1,0 +1,4 @@
+2025-05-14 23:17:49,178 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-14 23:17:49,584 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-14 23:17:50,023 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-14 23:17:50,466 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
