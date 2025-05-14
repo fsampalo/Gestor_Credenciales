@@ -123,7 +123,7 @@ class GestorCredenciales(DBC):
         self._autenticar(clave_maestra)
         
         if not self._es_password_robusta(password):
-            logging.warning(f"Intento de añadir credencial con contraseña débil para {servicio} - {usuario}")
+            logging.warning(f"Intento de añadir credencial con contraseña debil para {servicio} - {usuario}")
             raise ErrorPoliticaPassword("La contraseña no cumple con la política de robustez.")
 
         if servicio not in self._credenciales:

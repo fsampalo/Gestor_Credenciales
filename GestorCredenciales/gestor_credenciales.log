@@ -2,3 +2,16 @@
 2025-05-14 23:17:49,584 - INFO - Credencial añadida para Gmail - mi_usuario
 2025-05-14 23:17:50,023 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
 2025-05-14 23:17:50,466 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-14 23:24:04,982 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-14 23:24:05,420 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-14 23:24:05,844 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-14 23:24:06,271 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-14 23:27:49,288 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-14 23:27:49,732 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-14 23:27:50,204 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-14 23:27:50,647 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-14 23:27:50,868 - WARNING - Intento de añadir credencial con contraseña débil para Gmail - otro_usuario
+2025-05-14 23:27:51,107 - WARNING - Intento de añadir credencial duplicada para Gmail - mi_usuario
+2025-05-14 23:27:51,327 - WARNING - Intento de verificar credencial inexistente: Facebook - no_existe
+2025-05-14 23:27:51,534 - WARNING - Intento de eliminar credencial inexistente: Gmail - no_existe
+2025-05-14 23:27:51,756 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
