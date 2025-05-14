@@ -1,64 +1,97 @@
 import unittest
-from src.gestor_credenciales.gestor_credenciales import GestorCredenciales, ErrorPoliticaPassword, ErrorAutenticacion, CredencialNoEncontrada
-from hypothesis import given
-from hypothesis.strategies import text
+from src.gestor_credenciales.gestor_credenciales import (
+    GestorCredenciales, 
+    ErrorPoliticaPassword, 
+    ErrorAutenticacion,
+    ErrorServicioNoEncontrado,
+    ErrorCredencialExistente
+)
+# from hypothesis import given # No usado en tests funcionales directos
+# from hypothesis.strategies import text
 
 class TestFuncionalesGestorCredenciales(unittest.TestCase):
     def setUp(self):
-        self.gestor = GestorCredenciales("claveMaestraSegura123!")
+        self.clave_maestra_valida = "claveMaestraSegura123!"
+        self.gestor = GestorCredenciales(self.clave_maestra_valida)
+        self.password_robusta = "PasswordValida123*"
+        self.password_debil = "corta"
 
-    # Tests funcionales
-    def test_añadir_credencial(self):
-        # Caso 1: Añadir credencial válida
-        self.gestor.añadir_credencial("claveMaestraSegura123!", "GitHub", "user1", "PasswordSegura123!")
-        password = self.gestor.obtener_password("claveMaestraSegura123!", "GitHub", "user1")
-        self.assertEqual(password, "PasswordSegura123!")
+    def test_añadir_y_verificar_credencial_exitosa(self):
+        servicio = "TestServicio"
+        usuario = "TestUsuario"
+        
+        self.gestor.añadir_credencial(self.clave_maestra_valida, servicio, usuario, self.password_robusta)
+        
+        # Verificar que se añadió (indirectamente, verificando la contraseña)
+        self.assertTrue(self.gestor.verificar_password(self.clave_maestra_valida, servicio, usuario, self.password_robusta))
 
-        # Caso 2: Contraseña que no cumple la política (demasiado corta)
+    def test_añadir_credencial_con_password_debil_falla(self):
         with self.assertRaises(ErrorPoliticaPassword):
-            self.gestor.añadir_credencial("claveMaestraSegura123!", "GitHub", "user2", "weak")
+            self.gestor.añadir_credencial(self.clave_maestra_valida, "TestFail", "UserFail", self.password_debil)
 
-        # Caso 3: Múltiples usuarios para el mismo servicio
-        self.gestor.añadir_credencial("claveMaestraSegura123!", "GitHub", "user2", "OtraPassword123!")
-        password2 = self.gestor.obtener_password("claveMaestraSegura123!", "GitHub", "user2")
-        self.assertEqual(password2, "OtraPassword123!")
+    def test_añadir_credencial_duplicada_falla(self):
+        servicio = "DuplicadoServ"
+        usuario = "DuplicadoUser"
+        self.gestor.añadir_credencial(self.clave_maestra_valida, servicio, usuario, self.password_robusta)
+        with self.assertRaises(ErrorCredencialExistente):
+            self.gestor.añadir_credencial(self.clave_maestra_valida, servicio, usuario, "OtraPasswordVal1da*")
 
-        # Caso 4: Diferentes servicios
-        self.gestor.añadir_credencial("claveMaestraSegura123!", "Twitter", "user1", "TwitterPass123!")
-        password_twitter = self.gestor.obtener_password("claveMaestraSegura123!", "Twitter", "user1")
-        self.assertEqual(password_twitter, "TwitterPass123!")
+    def test_verificar_password_incorrecta_falla(self):
+        servicio = "VerifServ"
+        usuario = "VerifUser"
+        self.gestor.añadir_credencial(self.clave_maestra_valida, servicio, usuario, self.password_robusta)
+        self.assertFalse(self.gestor.verificar_password(self.clave_maestra_valida, servicio, usuario, "PasswordIncorrecta1*"))
 
-        # Caso 5: Sobrescribir credencial existente
-        self.gestor.añadir_credencial("claveMaestraSegura123!", "GitHub", "user1", "NuevaPassword123!")
-        password_actualizada = self.gestor.obtener_password("claveMaestraSegura123!", "GitHub", "user1")
-        self.assertEqual(password_actualizada, "NuevaPassword123!")
-
-    def test_recuperar_credencial(self):
-        # Primero, añadir una credencial
-        self.gestor.añadir_credencial("claveMaestraSegura123!", "GitHub", "user1", "PasswordSegura123!")
-
-        # Caso 1: Recuperar con clave correcta
-        password = self.gestor.obtener_password("claveMaestraSegura123!", "GitHub", "user1")
-        self.assertEqual(password, "PasswordSegura123!")
-
-        # Caso 2: Recuperar con clave incorrecta
-        with self.assertRaises(ErrorAutenticacion):
-            self.gestor.obtener_password("claveIncorrecta", "GitHub", "user1")
-
-        # Caso 3: Recuperar credencial no existente
-        with self.assertRaises(CredencialNoEncontrada):
-            self.gestor.obtener_password("claveMaestraSegura123!", "ServicioInexistente", "user1")
+    def test_verificar_password_credencial_no_existente_falla(self):
+        with self.assertRaises(ErrorServicioNoEncontrado):
+            self.gestor.verificar_password(self.clave_maestra_valida, "NoExisteServ", "NoExisteUser", self.password_robusta)
 
     def test_listar_servicios(self):
-        # Caso 1: Sin credenciales
-        self.assertEqual(self.gestor.listar_servicios(), [])
+        self.assertEqual(self.gestor.listar_servicios(self.clave_maestra_valida), []) # Lista vacía inicialmente
+        
+        self.gestor.añadir_credencial(self.clave_maestra_valida, "Servicio1", "userA", self.password_robusta)
+        self.gestor.añadir_credencial(self.clave_maestra_valida, "Servicio2", "userB", self.password_robusta)
+        # Añadir otra credencial para Servicio1 para asegurar que no se duplica en la lista de servicios
+        self.gestor.añadir_credencial(self.clave_maestra_valida, "Servicio1", "userC", "PasswordValida234&")
 
-        # Caso 2: Con credenciales
-        self.gestor.añadir_credencial("claveMaestraSegura123!", "GitHub", "user1", "PasswordSegura123!")
-        self.gestor.añadir_credencial("claveMaestraSegura123!", "Twitter", "user1", "TwitterPass123!")
-        self.gestor.añadir_credencial("claveMaestraSegura123!", "GitHub", "user2", "OtraPassword123!")
-        servicios = self.gestor.listar_servicios()
-        self.assertEqual(sorted(servicios), ["GitHub", "Twitter"])
+        servicios_listados = self.gestor.listar_servicios(self.clave_maestra_valida)
+        self.assertCountEqual(servicios_listados, ["Servicio1", "Servicio2"]) # Compara listas sin importar el orden
+
+    def test_eliminar_credencial_exitosa(self):
+        servicio = "ElimServ"
+        usuario = "ElimUser"
+        self.gestor.añadir_credencial(self.clave_maestra_valida, servicio, usuario, self.password_robusta)
+        
+        # Confirmar que existe antes de eliminar
+        self.assertTrue(self.gestor.verificar_password(self.clave_maestra_valida, servicio, usuario, self.password_robusta))
+        
+        self.gestor.eliminar_credencial(self.clave_maestra_valida, servicio, usuario)
+        
+        # Confirmar que ya no existe
+        with self.assertRaises(ErrorServicioNoEncontrado):
+            self.gestor.verificar_password(self.clave_maestra_valida, servicio, usuario, self.password_robusta)
+        
+        # Verificar que el servicio se elimina de la lista si no quedan más usuarios
+        servicios_listados = self.gestor.listar_servicios(self.clave_maestra_valida)
+        self.assertNotIn(servicio, servicios_listados)
+
+    def test_eliminar_credencial_no_existente_falla(self):
+        with self.assertRaises(ErrorServicioNoEncontrado):
+            self.gestor.eliminar_credencial(self.clave_maestra_valida, "NoExisteServ", "NoExisteUser")
+            
+    def test_operaciones_con_clave_maestra_incorrecta_fallan(self):
+        clave_incorrecta = "incorrecta123"
+        # Añadir una credencial con la clave correcta primero
+        self.gestor.añadir_credencial(self.clave_maestra_valida, "ServicioTmp", "UserTmp", self.password_robusta)
+
+        with self.assertRaises(ErrorAutenticacion):
+            self.gestor.añadir_credencial(clave_incorrecta, "S", "U", self.password_robusta)
+        with self.assertRaises(ErrorAutenticacion):
+            self.gestor.verificar_password(clave_incorrecta, "ServicioTmp", "UserTmp", self.password_robusta)
+        with self.assertRaises(ErrorAutenticacion):
+            self.gestor.eliminar_credencial(clave_incorrecta, "ServicioTmp", "UserTmp")
+        with self.assertRaises(ErrorAutenticacion):
+            self.gestor.listar_servicios(clave_incorrecta)
 
 if __name__ == "__main__":
     unittest.main()
