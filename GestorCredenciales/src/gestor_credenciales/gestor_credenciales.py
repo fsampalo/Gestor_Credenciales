@@ -53,7 +53,8 @@ class GestorCredenciales(DBC):
         return bcrypt.hashpw(clave, bcrypt.gensalt())
     
     def restablecer(self, nueva_clave_maestra: str) -> None:
-        """Restablece el gestor de credenciales con una nueva clave maestra, eliminando todas las credenciales almacenadas."""
+        if not self._es_password_robusta(nueva_clave_maestra):
+            raise ErrorPoliticaPassword("La clave maestra no cumple con la política de robustez.")
         self._clave_maestra_hashed = self._hash_clave(nueva_clave_maestra.encode('utf-8'))
         self._credenciales = {}
         
