@@ -25,7 +25,12 @@ class GestorCredenciales(DBC): # Heredar de DBC para activar icontracts
     def _hash_clave(self, clave: bytes) -> bytes:
         """Hashea una clave usando bcrypt."""
         return bcrypt.hashpw(clave, bcrypt.gensalt())
-
+    
+    def restablecer(self, nueva_clave_maestra: str) -> None:
+        """Restablece el gestor de credenciales con una nueva clave maestra, eliminando todas las credenciales almacenadas."""
+        self._clave_maestra_hashed = self._hash_clave(nueva_clave_maestra.encode('utf-8'))
+        self._credenciales = {}
+        
     def _verificar_clave(self, clave: bytes, clave_hashed: bytes) -> bool:
         """Verifica si una clave coincide con su hash."""
         try:
