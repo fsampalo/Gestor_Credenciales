@@ -50,17 +50,3 @@ gestor-credenciales/
 ├── requirements.txt               # Dependencias del proyecto
 └── README.md                     # Este archivo
 ```
-
-## Contribuir
-¡Bienvenid@ a contribuir! Sigue estos pasos:
-1. Haz un fork del repositorio.
-2. Crea una rama para tu feature: `git checkout -b mi-feature`.
-3. Commitea tus cambios: `git commit -m "Añadir mi feature"`.
-4. Sube tu rama: `git push origin mi-feature`.
-5. Abre un Pull Request en GitHub.
-
-## Licencia
-Este proyecto está bajo la [Licencia MIT](LICENSE).
-
-## Contacto
-Para dudas o sugerencias, contacta a [tu-email@ejemplo.com] o abre un issue en el repositorio.
