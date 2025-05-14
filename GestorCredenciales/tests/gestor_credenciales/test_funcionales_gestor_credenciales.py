@@ -93,5 +93,55 @@ class TestFuncionalesGestorCredenciales(unittest.TestCase):
         with self.assertRaises(ErrorAutenticacion):
             self.gestor.listar_servicios(clave_incorrecta)
 
+    # Nuevos tests para la recuperación de credenciales
+    def test_restablecer_y_verificar_nueva_clave_maestra(self):
+        """Verifica que después de restablecer, la nueva clave maestra es la que se utiliza."""
+        nueva_clave = "nuevaClaveMaestra123!"
+        self.gestor.restablecer(nueva_clave)
+        
+        # Intentar añadir una credencial con la clave antigua debería fallar
+        with self.assertRaises(ErrorAutenticacion):
+            self.gestor.añadir_credencial(self.clave_maestra_valida, "Servicio", "Usuario", self.password_robusta)
+        
+        # Añadir una credencial con la nueva clave debería funcionar
+        self.gestor.añadir_credencial(nueva_clave, "Servicio", "Usuario", self.password_robusta)
+        
+        # Verificar que se puede acceder con la nueva clave
+        self.assertTrue(self.gestor.verificar_password(nueva_clave, "Servicio", "Usuario", self.password_robusta))
+
+    def test_restablecer_elimina_credenciales(self):
+        """Verifica que todas las credenciales se eliminan al restablecer el gestor."""
+        # Añadir algunas credenciales
+        self.gestor.añadir_credencial(self.clave_maestra_valida, "Servicio1", "Usuario1", self.password_robusta)
+        self.gestor.añadir_credencial(self.clave_maestra_valida, "Servicio2", "Usuario2", self.password_robusta)
+        
+        # Restablecer con una nueva clave
+        nueva_clave = "nuevaClave123!"
+        self.gestor.restablecer(nueva_clave)
+        
+        # Intentar verificar las credenciales anteriores debería fallar
+        with self.assertRaises(ErrorServicioNoEncontrado):
+            self.gestor.verificar_password(nueva_clave, "Servicio1", "Usuario1", self.password_robusta)
+        with self.assertRaises(ErrorServicioNoEncontrado):
+            self.gestor.verificar_password(nueva_clave, "Servicio2", "Usuario2", self.password_robusta)
+        
+        # La lista de servicios debería estar vacía
+        self.assertEqual(self.gestor.listar_servicios(nueva_clave), [])
+
+    def test_añadir_credenciales_despues_de_restablecer(self):
+        """Verifica que se pueden añadir y acceder a nuevas credenciales después de restablecer."""
+        nueva_clave = "nuevaClaveMaestra123!"
+        self.gestor.restablecer(nueva_clave)
+        
+        # Añadir una nueva credencial con la nueva clave
+        self.gestor.añadir_credencial(nueva_clave, "NuevoServicio", "NuevoUsuario", self.password_robusta)
+        
+        # Verificar que se puede acceder correctamente
+        self.assertTrue(self.gestor.verificar_password(nueva_clave, "NuevoServicio", "NuevoUsuario", self.password_robusta))
+        
+        # Intentar acceder con la clave antigua debería fallar
+        with self.assertRaises(ErrorAutenticacion):
+            self.gestor.verificar_password(self.clave_maestra_valida, "NuevoServicio", "NuevoUsuario", self.password_robusta)
+
 if __name__ == "__main__":
     unittest.main()
