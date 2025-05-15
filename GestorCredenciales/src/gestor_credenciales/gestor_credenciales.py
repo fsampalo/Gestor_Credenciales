@@ -1,6 +1,7 @@
 import hashlib
 import bcrypt
 import logging
+import re
 from icontract import require, ensure, DBC
 
 # Configuración del logging seguro
@@ -22,6 +23,9 @@ class ErrorServicioNoEncontrado(Exception):
 
 class ErrorCredencialExistente(Exception):
     pass
+
+# Patrón para nombres válidos
+VALID_NAME_PATTERN = r'^[a-zA-Z0-9_-]+$'
 
 class GestorCredenciales(DBC):
     """Gestor de credenciales seguro que almacena y gestiona contraseñas."""
@@ -109,8 +113,8 @@ class GestorCredenciales(DBC):
         return True
 
     @require(lambda servicio, usuario: bool(servicio and usuario), "Servicio y usuario no pueden estar vacíos.")
-    @require(lambda servicio: all(c not in ";&|" for c in servicio), "Nombre de servicio inválido (posible inyección).")
-    @require(lambda usuario: all(c not in ";&|" for c in usuario), "Nombre de usuario inválido (posible inyección).")
+    @require(lambda servicio: re.match(VALID_NAME_PATTERN, servicio), "Nombre de servicio inválido (solo alfanuméricos, guiones o guiones bajos).")
+    @require(lambda usuario: re.match(VALID_NAME_PATTERN, usuario), "Nombre de usuario inválido (solo alfanuméricos, guiones o guiones bajos).")
     @ensure(lambda self, servicio, usuario: (servicio in self._credenciales and usuario in self._credenciales[servicio]))
     def añadir_credencial(self, clave_maestra: str, servicio: str, usuario: str, password: str) -> None:
         """Añade una nueva credencial al gestor.
@@ -129,7 +133,7 @@ class GestorCredenciales(DBC):
         self._autenticar(clave_maestra)
         
         if not self._es_password_robusta(password):
-            logging.warning(f"Intento de añadir credencial con contraseña debil para {servicio} - {usuario}")
+            logging.warning(f"Intento de añadir credencial con contraseña débil para {servicio} - {usuario}")
             raise ErrorPoliticaPassword("La contraseña no cumple con la política de robustez.")
 
         if servicio not in self._credenciales:
