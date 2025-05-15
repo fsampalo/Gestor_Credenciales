@@ -15,3 +15,290 @@
 2025-05-14 23:27:51,327 - WARNING - Intento de verificar credencial inexistente: Facebook - no_existe
 2025-05-14 23:27:51,534 - WARNING - Intento de eliminar credencial inexistente: Gmail - no_existe
 2025-05-14 23:27:51,756 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-14 23:33:25,709 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-14 23:33:26,210 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-14 23:33:26,709 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-14 23:33:27,160 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-14 23:33:27,382 - WARNING - Intento de añadir credencial con contraseña debil para Gmail - otro_usuario
+2025-05-14 23:33:27,603 - WARNING - Intento de añadir credencial duplicada para Gmail - mi_usuario
+2025-05-14 23:33:27,822 - WARNING - Intento de verificar credencial inexistente: Facebook - no_existe
+2025-05-14 23:33:28,062 - WARNING - Intento de eliminar credencial inexistente: Gmail - no_existe
+2025-05-14 23:33:28,330 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-14 23:35:53,526 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-14 23:35:53,946 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-14 23:35:54,429 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-14 23:35:54,898 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-14 23:35:55,140 - WARNING - Intento de añadir credencial con contraseña debil para Gmail - otro_usuario
+2025-05-14 23:35:55,359 - WARNING - Intento de añadir credencial duplicada para Gmail - mi_usuario
+2025-05-14 23:35:55,565 - WARNING - Intento de verificar credencial inexistente: Facebook - no_existe
+2025-05-14 23:35:55,784 - WARNING - Intento de eliminar credencial inexistente: Gmail - no_existe
+2025-05-14 23:35:56,003 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-14 23:39:31,314 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-14 23:39:31,729 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-14 23:39:32,165 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-14 23:39:32,602 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-14 23:39:32,809 - WARNING - Intento de añadir credencial con contraseña debil para Gmail - otro_usuario
+2025-05-14 23:39:33,028 - WARNING - Intento de añadir credencial duplicada para Gmail - mi_usuario
+2025-05-14 23:39:33,236 - WARNING - Intento de verificar credencial inexistente: Facebook - no_existe
+2025-05-14 23:39:33,444 - WARNING - Intento de eliminar credencial inexistente: Gmail - no_existe
+2025-05-14 23:39:33,662 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-14 23:39:33,867 - INFO - Lista de servicios solicitada.
+2025-05-14 23:39:34,072 - INFO - Credencial eliminada para Gmail - mi_usuario
+2025-05-14 23:39:34,292 - INFO - Lista de servicios solicitada.
+2025-05-14 23:50:47,209 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-14 23:50:47,761 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-14 23:50:48,234 - INFO - Credencial añadida para Gmail - otro_usuario
+2025-05-14 23:50:48,464 - WARNING - Intento de añadir credencial con contraseña debil para GitHub - mi_usuario
+2025-05-14 23:50:48,687 - WARNING - Intento de añadir credencial duplicada para Gmail - mi_usuario
+2025-05-14 23:50:48,914 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-14 23:50:49,392 - INFO - Credencial añadida para Git-Hub - mi_usuario.123
+2025-05-14 23:50:49,822 - INFO - Credencial añadida para xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx - yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2025-05-14 23:50:50,266 - INFO - Credencial añadida para VulnDB - mi_usuario
+2025-05-14 23:50:50,485 - WARNING - Intento de añadir credencial con contraseña debil para VulnDB - usuario_unicode
+2025-05-14 23:50:50,894 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-14 23:50:51,306 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-14 23:50:51,528 - WARNING - Intento de verificar credencial inexistente: Facebook - no_existe
+2025-05-14 23:50:51,739 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-14 23:50:51,948 - WARNING - Intento de verificar credencial inexistente: VulnDB - usuario_unicode
+2025-05-14 23:50:52,167 - INFO - Credencial eliminada para Gmail - mi_usuario
+2025-05-14 23:50:52,376 - WARNING - Intento de eliminar credencial inexistente: Gmail - mi_usuario
+2025-05-14 23:50:52,582 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-14 23:50:52,792 - INFO - Credencial eliminada para Gmail - otro_usuario
+2025-05-14 23:50:52,999 - INFO - Lista de servicios solicitada.
+2025-05-14 23:50:53,249 - WARNING - Intento de eliminar credencial inexistente: VulnDB - usuario_unicode
+2025-05-14 23:50:53,455 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-14 23:50:53,662 - INFO - Credencial eliminada para Git-Hub - mi_usuario.123
+2025-05-14 23:50:53,880 - INFO - Lista de servicios solicitada.
+2025-05-14 23:50:54,292 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-14 23:50:54,701 - INFO - Lista de servicios solicitada.
+2025-05-14 23:50:55,155 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-14 23:57:25,454 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-14 23:57:25,896 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-14 23:57:26,337 - INFO - Credencial añadida para Gmail - otro_usuario
+2025-05-14 23:57:26,543 - WARNING - Intento de añadir credencial con contraseña debil para GitHub - mi_usuario
+2025-05-14 23:57:26,752 - WARNING - Intento de añadir credencial duplicada para Gmail - mi_usuario
+2025-05-14 23:57:26,956 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-14 23:57:27,390 - INFO - Credencial añadida para Git-Hub - mi_usuario.123
+2025-05-14 23:57:27,799 - INFO - Credencial añadida para xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx - yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2025-05-14 23:57:28,214 - INFO - Credencial añadida para VulnDB - mi_usuario
+2025-05-14 23:57:28,433 - WARNING - Intento de añadir credencial con contraseña debil para VulnDB - usuario_unicode
+2025-05-14 23:57:28,841 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-14 23:57:29,250 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-14 23:57:29,485 - WARNING - Intento de verificar credencial inexistente: Facebook - no_existe
+2025-05-14 23:57:29,720 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-14 23:57:29,927 - WARNING - Intento de verificar credencial inexistente: VulnDB - usuario_unicode
+2025-05-14 23:57:30,132 - INFO - Credencial eliminada para Gmail - mi_usuario
+2025-05-14 23:57:30,340 - WARNING - Intento de eliminar credencial inexistente: Gmail - mi_usuario
+2025-05-14 23:57:30,547 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-14 23:57:30,755 - INFO - Credencial eliminada para Gmail - otro_usuario
+2025-05-14 23:57:30,961 - INFO - Lista de servicios solicitada.
+2025-05-14 23:57:31,165 - WARNING - Intento de eliminar credencial inexistente: VulnDB - usuario_unicode
+2025-05-14 23:57:31,369 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-14 23:57:31,576 - INFO - Credencial eliminada para Git-Hub - mi_usuario.123
+2025-05-14 23:57:31,780 - INFO - Lista de servicios solicitada.
+2025-05-14 23:57:32,186 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-14 23:57:32,623 - INFO - Lista de servicios solicitada.
+2025-05-14 23:57:32,828 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:05:26,080 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 00:05:26,505 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-15 00:05:26,928 - INFO - Credencial añadida para Gmail - otro_usuario
+2025-05-15 00:05:27,137 - WARNING - Intento de añadir credencial con contraseña débil para GitHub - mi_usuario
+2025-05-15 00:05:27,341 - WARNING - Intento de añadir credencial duplicada para Gmail - mi_usuario
+2025-05-15 00:05:27,590 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:05:28,009 - INFO - Credencial añadida para Git-Hub - mi_usuario.123
+2025-05-15 00:05:28,436 - INFO - Credencial añadida para xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx - yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2025-05-15 00:05:28,858 - INFO - Credencial añadida para VulnDB - mi_usuario
+2025-05-15 00:05:29,076 - WARNING - Intento de añadir credencial con contraseña débil para VulnDB - usuario_unicode
+2025-05-15 00:05:29,485 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-15 00:05:29,894 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-15 00:05:30,099 - WARNING - Intento de verificar credencial inexistente: Facebook - no_existe
+2025-05-15 00:05:30,306 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:05:30,530 - WARNING - Intento de verificar credencial inexistente: VulnDB - usuario_unicode
+2025-05-15 00:05:30,750 - INFO - Credencial eliminada para Gmail - mi_usuario
+2025-05-15 00:05:30,985 - WARNING - Intento de eliminar credencial inexistente: Gmail - mi_usuario
+2025-05-15 00:05:31,205 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:05:31,414 - INFO - Credencial eliminada para Gmail - otro_usuario
+2025-05-15 00:05:31,634 - INFO - Lista de servicios solicitada.
+2025-05-15 00:05:31,867 - WARNING - Intento de eliminar credencial inexistente: VulnDB - usuario_unicode
+2025-05-15 00:05:32,071 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:05:32,276 - INFO - Credencial eliminada para Git-Hub - mi_usuario.123
+2025-05-15 00:05:32,480 - INFO - Lista de servicios solicitada.
+2025-05-15 00:05:32,888 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-15 00:05:33,312 - INFO - Lista de servicios solicitada.
+2025-05-15 00:05:33,531 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:08:14,617 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 00:08:15,026 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-15 00:08:15,482 - INFO - Credencial añadida para Gmail - otro_usuario
+2025-05-15 00:08:15,719 - WARNING - Intento de añadir credencial con contraseña debil para GitHub - mi_usuario
+2025-05-15 00:08:15,925 - WARNING - Intento de añadir credencial duplicada para Gmail - mi_usuario
+2025-05-15 00:08:16,143 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:08:16,578 - INFO - Credencial añadida para Git-Hub - mi_usuario.123
+2025-05-15 00:08:17,006 - INFO - Credencial añadida para xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx - yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2025-05-15 00:08:17,457 - INFO - Credencial añadida para VulnDB - mi_usuario
+2025-05-15 00:08:17,677 - WARNING - Intento de añadir credencial con contraseña debil para VulnDB - usuario_unicode
+2025-05-15 00:08:18,144 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-15 00:08:18,576 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-15 00:08:18,795 - WARNING - Intento de verificar credencial inexistente: Facebook - no_existe
+2025-05-15 00:08:19,002 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:08:19,283 - WARNING - Intento de verificar credencial inexistente: VulnDB - usuario_unicode
+2025-05-15 00:08:19,489 - INFO - Credencial eliminada para Gmail - mi_usuario
+2025-05-15 00:08:19,693 - WARNING - Intento de eliminar credencial inexistente: Gmail - mi_usuario
+2025-05-15 00:08:19,903 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:08:20,126 - INFO - Credencial eliminada para Gmail - otro_usuario
+2025-05-15 00:08:20,346 - INFO - Lista de servicios solicitada.
+2025-05-15 00:08:20,551 - WARNING - Intento de eliminar credencial inexistente: VulnDB - usuario_unicode
+2025-05-15 00:08:20,763 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:08:20,975 - INFO - Credencial eliminada para Git-Hub - mi_usuario.123
+2025-05-15 00:08:21,178 - INFO - Lista de servicios solicitada.
+2025-05-15 00:08:21,600 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-15 00:08:22,058 - INFO - Lista de servicios solicitada.
+2025-05-15 00:08:22,277 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:12:40,418 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 00:12:40,869 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-15 00:12:41,275 - INFO - Credencial añadida para Gmail - otro_usuario
+2025-05-15 00:12:41,494 - WARNING - Intento de añadir credencial con contraseña debil para GitHub - mi_usuario
+2025-05-15 00:12:41,712 - WARNING - Intento de añadir credencial duplicada para Gmail - mi_usuario
+2025-05-15 00:12:41,947 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:12:42,426 - INFO - Credencial añadida para Git-Hub - mi_usuario.123
+2025-05-15 00:12:42,863 - INFO - Credencial añadida para xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx - yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2025-05-15 00:12:43,301 - INFO - Credencial añadida para VulnDB - mi_usuario
+2025-05-15 00:12:43,709 - INFO - Credencial añadida para VulnDB - usuario_unicode
+2025-05-15 00:12:44,115 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-15 00:12:44,522 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-15 00:12:44,727 - WARNING - Intento de verificar credencial inexistente: Facebook - no_existe
+2025-05-15 00:12:44,931 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:12:45,404 - INFO - Verificación de contraseña para VulnDB - usuario_unicode: fallo
+2025-05-15 00:12:45,608 - INFO - Credencial eliminada para Gmail - mi_usuario
+2025-05-15 00:12:45,826 - WARNING - Intento de eliminar credencial inexistente: Gmail - mi_usuario
+2025-05-15 00:12:46,045 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:12:46,260 - INFO - Credencial eliminada para Gmail - otro_usuario
+2025-05-15 00:12:46,465 - INFO - Lista de servicios solicitada.
+2025-05-15 00:12:46,669 - INFO - Credencial eliminada para VulnDB - usuario_unicode
+2025-05-15 00:12:46,887 - INFO - Lista de servicios solicitada.
+2025-05-15 00:12:47,093 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:12:47,299 - INFO - Credencial eliminada para Git-Hub - mi_usuario.123
+2025-05-15 00:12:47,503 - INFO - Lista de servicios solicitada.
+2025-05-15 00:12:47,911 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-15 00:12:48,318 - INFO - Lista de servicios solicitada.
+2025-05-15 00:12:48,524 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:12:59,931 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 00:13:00,441 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-15 00:13:00,863 - INFO - Credencial añadida para Gmail - otro_usuario
+2025-05-15 00:13:01,083 - WARNING - Intento de añadir credencial con contraseña debil para GitHub - mi_usuario
+2025-05-15 00:13:01,304 - WARNING - Intento de añadir credencial duplicada para Gmail - mi_usuario
+2025-05-15 00:13:01,510 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:13:01,928 - INFO - Credencial añadida para Git-Hub - mi_usuario.123
+2025-05-15 00:13:02,349 - INFO - Credencial añadida para xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx - yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2025-05-15 00:13:02,788 - INFO - Credencial añadida para VulnDB - mi_usuario
+2025-05-15 00:13:03,213 - INFO - Credencial añadida para VulnDB - usuario_unicode
+2025-05-15 00:13:03,629 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-15 00:13:04,149 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-15 00:13:04,365 - WARNING - Intento de verificar credencial inexistente: Facebook - no_existe
+2025-05-15 00:13:04,569 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:13:04,995 - INFO - Verificación de contraseña para VulnDB - usuario_unicode: fallo
+2025-05-15 00:13:05,200 - INFO - Credencial eliminada para Gmail - mi_usuario
+2025-05-15 00:13:05,404 - WARNING - Intento de eliminar credencial inexistente: Gmail - mi_usuario
+2025-05-15 00:13:05,623 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:13:05,831 - INFO - Credencial eliminada para Gmail - otro_usuario
+2025-05-15 00:13:06,036 - INFO - Lista de servicios solicitada.
+2025-05-15 00:13:06,240 - INFO - Credencial eliminada para VulnDB - usuario_unicode
+2025-05-15 00:13:06,444 - INFO - Lista de servicios solicitada.
+2025-05-15 00:13:06,692 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:13:06,902 - INFO - Credencial eliminada para Git-Hub - mi_usuario.123
+2025-05-15 00:13:07,105 - INFO - Lista de servicios solicitada.
+2025-05-15 00:13:07,515 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-15 00:13:07,924 - INFO - Lista de servicios solicitada.
+2025-05-15 00:13:08,159 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:13:31,962 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 00:13:32,377 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-15 00:13:32,868 - INFO - Credencial añadida para Gmail - otro_usuario
+2025-05-15 00:13:33,073 - WARNING - Intento de añadir credencial con contraseña debil para GitHub - mi_usuario
+2025-05-15 00:13:33,325 - WARNING - Intento de añadir credencial duplicada para Gmail - mi_usuario
+2025-05-15 00:13:33,530 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:13:33,951 - INFO - Credencial añadida para Git-Hub - mi_usuario.123
+2025-05-15 00:13:34,379 - INFO - Credencial añadida para xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx - yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2025-05-15 00:13:34,804 - INFO - Credencial añadida para VulnDB - mi_usuario
+2025-05-15 00:13:35,009 - WARNING - Intento de añadir credencial con contraseña debil para VulnDB - usuario_unicode
+2025-05-15 00:13:35,509 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-15 00:13:35,983 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-15 00:13:36,189 - WARNING - Intento de verificar credencial inexistente: Facebook - no_existe
+2025-05-15 00:13:36,409 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:13:36,632 - WARNING - Intento de verificar credencial inexistente: VulnDB - usuario_unicode
+2025-05-15 00:13:36,893 - INFO - Credencial eliminada para Gmail - mi_usuario
+2025-05-15 00:13:37,101 - WARNING - Intento de eliminar credencial inexistente: Gmail - mi_usuario
+2025-05-15 00:13:37,310 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:13:37,519 - INFO - Credencial eliminada para Gmail - otro_usuario
+2025-05-15 00:13:37,725 - INFO - Lista de servicios solicitada.
+2025-05-15 00:13:37,931 - WARNING - Intento de eliminar credencial inexistente: VulnDB - usuario_unicode
+2025-05-15 00:13:38,164 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:13:38,403 - INFO - Credencial eliminada para Git-Hub - mi_usuario.123
+2025-05-15 00:13:38,623 - INFO - Lista de servicios solicitada.
+2025-05-15 00:13:39,035 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-15 00:13:39,443 - INFO - Lista de servicios solicitada.
+2025-05-15 00:13:39,652 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:17:47,293 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 00:17:47,733 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-15 00:17:48,174 - INFO - Credencial añadida para Gmail - otro_usuario
+2025-05-15 00:17:48,395 - WARNING - Intento de añadir credencial con contraseña debil para GitHub - mi_usuario
+2025-05-15 00:17:48,598 - WARNING - Intento de añadir credencial duplicada para Gmail - mi_usuario
+2025-05-15 00:17:48,806 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:17:49,320 - INFO - Credencial añadida para Git-Hub - mi_usuario.123
+2025-05-15 00:17:49,745 - INFO - Credencial añadida para xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx - yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2025-05-15 00:17:50,200 - INFO - Credencial añadida para VulnDB - mi_usuario
+2025-05-15 00:17:50,625 - INFO - Credencial añadida para VulnDB - usuario_unicode
+2025-05-15 00:17:51,037 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-15 00:17:51,477 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-15 00:17:51,700 - WARNING - Intento de verificar credencial inexistente: Facebook - no_existe
+2025-05-15 00:17:51,904 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:17:52,412 - INFO - Verificación de contraseña para VulnDB - usuario_unicode: fallo
+2025-05-15 00:17:52,619 - INFO - Credencial eliminada para Gmail - mi_usuario
+2025-05-15 00:17:52,823 - WARNING - Intento de eliminar credencial inexistente: Gmail - mi_usuario
+2025-05-15 00:17:53,029 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:17:53,250 - INFO - Credencial eliminada para Gmail - otro_usuario
+2025-05-15 00:17:53,470 - INFO - Lista de servicios solicitada.
+2025-05-15 00:17:53,674 - INFO - Credencial eliminada para VulnDB - usuario_unicode
+2025-05-15 00:17:53,880 - INFO - Lista de servicios solicitada.
+2025-05-15 00:17:54,104 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:17:54,340 - INFO - Credencial eliminada para Git-Hub - mi_usuario.123
+2025-05-15 00:17:54,547 - INFO - Lista de servicios solicitada.
+2025-05-15 00:17:54,973 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-15 00:17:55,381 - INFO - Lista de servicios solicitada.
+2025-05-15 00:17:55,586 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:24:13,461 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 00:24:13,982 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-15 00:24:14,409 - INFO - Credencial añadida para Gmail - otro_usuario
+2025-05-15 00:24:14,644 - WARNING - Intento de añadir credencial con contraseña debil para GitHub - mi_usuario
+2025-05-15 00:24:14,899 - WARNING - Intento de añadir credencial duplicada para Gmail - mi_usuario
+2025-05-15 00:24:15,167 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:24:15,669 - INFO - Credencial añadida para Git-Hub - mi_usuario.123
+2025-05-15 00:24:16,094 - INFO - Credencial añadida para xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx - yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+2025-05-15 00:24:16,515 - INFO - Credencial añadida para VulnDB - mi_usuario
+2025-05-15 00:24:16,929 - INFO - Credencial añadida para VulnDB - usuario_unicode
+2025-05-15 00:24:17,378 - INFO - Verificación de contraseña para Gmail - mi_usuario: éxito
+2025-05-15 00:24:17,805 - INFO - Verificación de contraseña para Gmail - mi_usuario: fallo
+2025-05-15 00:24:18,027 - WARNING - Intento de verificar credencial inexistente: Facebook - no_existe
+2025-05-15 00:24:18,234 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:24:18,695 - INFO - Verificación de contraseña para VulnDB - usuario_unicode: fallo
+2025-05-15 00:24:18,901 - INFO - Credencial eliminada para Gmail - mi_usuario
+2025-05-15 00:24:19,120 - WARNING - Intento de eliminar credencial inexistente: Gmail - mi_usuario
+2025-05-15 00:24:19,327 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:24:19,549 - INFO - Credencial eliminada para Gmail - otro_usuario
+2025-05-15 00:24:19,769 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 00:24:20,232 - INFO - Credencial añadida para Git-Hub - mi_usuario.123
+2025-05-15 00:24:20,690 - INFO - Credencial añadida para VulnDB - usuario_unicode
+2025-05-15 00:24:20,924 - INFO - Lista de servicios solicitada.
+2025-05-15 00:24:21,172 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 00:24:21,619 - INFO - Credencial añadida para Git-Hub - mi_usuario.123
+2025-05-15 00:24:22,041 - INFO - Credencial añadida para VulnDB - usuario_unicode
+2025-05-15 00:24:22,292 - INFO - Credencial eliminada para VulnDB - usuario_unicode
+2025-05-15 00:24:22,497 - INFO - Lista de servicios solicitada.
+2025-05-15 00:24:22,731 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 00:24:22,933 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 00:24:23,170 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 00:24:23,397 - INFO - Lista de servicios solicitada.
+2025-05-15 00:24:23,632 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 00:24:24,062 - INFO - Credencial añadida para Gmail - mi_usuario
+2025-05-15 00:24:24,490 - INFO - Lista de servicios solicitada.
+2025-05-15 00:24:24,697 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 00:24:24,930 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 00:24:25,344 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
