@@ -121,7 +121,7 @@ class TestSeguridadGestorCredenciales(unittest.TestCase):
             self.gestor.eliminar_credencial(clave_incorrecta, "GitHub", "user1")
         with self.assertRaises(ErrorAutenticacion):
             self.gestor.listar_servicios(clave_incorrecta)
-            
+    
     # --- Nuevos Tests de Seguridad Adicionales ---
 
     def test_seguridad_confidencialidad_clave_maestra_no_en_claro(self):

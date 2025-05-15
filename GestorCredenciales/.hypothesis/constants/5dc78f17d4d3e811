@@ -1,0 +1,4 @@
+# file: C:\Users\ferna\AppData\Roaming\Python\Python311\site-packages\asttokens\mark_tokens.py
+# hypothesis_version: 6.131.16
+
+['(', ')', '*', ',', '.', ':', ';', '=', '@', 'FSTRING_END', 'FSTRING_START', '[', ']', 'async', 'col_offset', 'def', 'doc', 'doc_node', 'elif', 'except', 'for', 'if', 'lineno', 'with', '{', '}']

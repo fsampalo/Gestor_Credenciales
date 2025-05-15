@@ -1,0 +1,4 @@
+# file: C:\Users\ferna\AppData\Roaming\Python\Python311\site-packages\asttokens\util.py
+# hypothesis_version: 6.131.16
+
+['%s:%s', 'AssignAttr', 'AssignName', 'Const', 'DelAttr', 'DelName', 'ExceptHandler', 'ExtSlice', 'JoinedStr', 'MatchCase', 'Module', 'Slice', 'Starred', 'Token', 'TryExcept', 'TryFinally', 'Tuple', '_broken_positions', 'excepthandler', 'get_children', 'match_case', 'u', 'visit_']
