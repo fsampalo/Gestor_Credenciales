@@ -11,7 +11,7 @@ from .exceptions import (
     ErrorServicioNoEncontrado,
     ErrorCredencialExistente
 )
-from .storage import StorageStrategy # Import new storage classes
+from .storage import StorageStrategy
 
 # Configuración del logging seguro (si no está configurado globalmente)
 logging.basicConfig(
@@ -22,7 +22,7 @@ logging.basicConfig(
 )
 
 # Patrón para nombres válidos
-VALID_NAME_PATTERN = r'^[a-zA-Z0-9_-]+$' # Allowing dots as well, common in service names/usernames
+VALID_NAME_PATTERN = r'^[a-zA-Z0-9_-]+$'
 
 class GestorCredenciales(DBC):
     """
@@ -45,7 +45,7 @@ class GestorCredenciales(DBC):
             logging.error("Error al inicializar Gestor: La clave maestra proporcionada es débil.")
             raise ErrorPoliticaPassword("La clave maestra no cumple con la política de robustez.")
         self._clave_maestra_hashed = self._hash_clave(clave_maestra.encode('utf-8'))
-        self._storage = storage_strategy # Dependency Injection
+        self._storage = storage_strategy 
         logging.info(f"Gestor de credenciales inicializado correctamente con {type(storage_strategy).__name__}.")
 
     def _hash_clave(self, clave: bytes) -> bytes:
@@ -54,7 +54,7 @@ class GestorCredenciales(DBC):
     def _verificar_clave(self, clave: bytes, clave_hashed: bytes) -> bool:
         try:
             return bcrypt.checkpw(clave, clave_hashed)
-        except ValueError: # Handles cases like malformed hash
+        except ValueError:
             logging.warning("Error al verificar clave: hash malformado o incompatible.")
             return False
 
@@ -74,7 +74,6 @@ class GestorCredenciales(DBC):
             return False
         if not any(c.isdigit() for c in password):
             return False
-        # Consider common symbols for password policies
         if not any(c in "!@#$%^&*-_()" for c in password):
             return False
         return True
@@ -106,14 +105,13 @@ class GestorCredenciales(DBC):
             logging.warning(f"Intento de añadir credencial con contraseña débil para servicio '{servicio}', usuario '{usuario}'.")
             raise ErrorPoliticaPassword("La contraseña no cumple con la política de robustez.")
 
-        # ErrorCredencialExistente will be raised by the storage strategy if applicable
         hashed_password = self._hash_clave(password.encode('utf-8'))
         try:
             self._storage.add_credential(servicio, usuario, hashed_password)
             logging.info(f"Credencial añadida para servicio '{servicio}', usuario '{usuario}'.")
         except ErrorCredencialExistente:
             logging.warning(f"Intento de añadir credencial duplicada (detectado por storage) para servicio '{servicio}', usuario '{usuario}'.")
-            raise # Re-raise the exception from storage
+            raise
 
     @require(lambda servicio: bool(servicio), "Servicio no puede estar vacío.")
     @require(lambda usuario: bool(usuario), "Usuario no puede estar vacío.")

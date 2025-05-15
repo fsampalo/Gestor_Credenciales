@@ -1,7 +1,7 @@
 # test_seguridad_gestor_credenciales.py (tests/test_seguridad_gestor_credenciales.py - MODIFICADO)
 import unittest
 import logging
-import bcrypt # Necesario para el test de hash malformado
+import bcrypt
 from src.gestor_credenciales import (
     GestorCredenciales, 
     ErrorPoliticaPassword, 

@@ -1,5 +1,3 @@
-# src/gestor_credenciales/storage.py
-
 from abc import ABC, abstractmethod
 import logging
 from .exceptions import ErrorCredencialExistente
