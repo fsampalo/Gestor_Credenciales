@@ -23,20 +23,14 @@ En este proyecto, aplicamos **STDD**:
 2. Navega al directorio del proyecto:
    ```bash
    cd gestor-credenciales
-   ```
-3. Crea un entorno virtual e instala las dependencias:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # En Windows: .venv\Scripts\activate
-   pip install -r requirements.txt
+   cd GestorCredenciales
    ```
 
 ## Uso
-1. Inicia el gestor:
+1. Arrancamos las pruebas unitarias:
    ```bash
-   python src/gestor_credenciales/gestor_credenciales.py
+   python -m pytest tests/gestor_credenciales/test_seguridad_gestor_credenciales.py -v
    ```
-2. Sigue las instrucciones en pantalla para agregar, consultar o modificar credenciales.
 
 ## Estructura del Proyecto
 ```
