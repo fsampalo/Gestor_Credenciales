@@ -1,17 +1,19 @@
-# Este archivo convierte la carpeta en un paquete Python
-# Puede dejarse vacío o usarse para importaciones a nivel de paquete
-from .gestor_credenciales import (
-    GestorCredenciales,
+from .exceptions import (
     ErrorPoliticaPassword,
     ErrorAutenticacion,
     ErrorServicioNoEncontrado,
     ErrorCredencialExistente
 )
+from .storage import StorageStrategy, InMemoryStorageStrategy
+from .gestor_credenciales import GestorCredenciales
 
 __all__ = [
     "GestorCredenciales",
+    "StorageStrategy",
+    "InMemoryStorageStrategy",
     "ErrorPoliticaPassword",
     "ErrorAutenticacion",
     "ErrorServicioNoEncontrado",
-    "ErrorCredencialExistente"
+    "ErrorCredencialExistente",
+    # "saludar",
 ]
