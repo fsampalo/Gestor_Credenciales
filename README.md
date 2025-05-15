@@ -25,17 +25,12 @@ En este proyecto, aplicamos **STDD**:
    cd gestor-credenciales
    cd GestorCredenciales
    ```
-3. Arrancamos las pruebas unitarias:
+
+## Uso
+1. Arrancamos las pruebas unitarias:
    ```bash
    python -m pytest tests/gestor_credenciales/test_seguridad_gestor_credenciales.py -v
    ```
-
-## Uso
-1. Inicia el gestor:
-   ```bash
-   python src/gestor_credenciales/gestor_credenciales.py
-   ```
-2. Sigue las instrucciones en pantalla para agregar, consultar o modificar credenciales.
 
 ## Estructura del Proyecto
 ```
