@@ -1,0 +1,4 @@
+# file: C:\Users\David\AppData\Roaming\Python\Python312\site-packages\icontract\_globals.py
+# hypothesis_version: 6.131.17
+
+[256, 'CallableT', 'ClassT', 'ExceptionT', 'ICONTRACT_SLOW']

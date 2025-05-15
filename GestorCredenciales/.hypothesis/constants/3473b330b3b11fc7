@@ -1,0 +1,4 @@
+# file: C:\Users\David\AppData\Roaming\Python\Python312\site-packages\trio\_subprocess.py
+# hypothesis_version: 6.131.17
+
+[434, 'bufsize', 'encoding', 'errors', 'linux', 'nt', 'open_process', 'os.PathLike[bytes]', 'os.PathLike[str]', 'posix', 'run_process', 'shell', 'stderr', 'stdin', 'stdout', 'text', 'universal_newlines', 'win32']

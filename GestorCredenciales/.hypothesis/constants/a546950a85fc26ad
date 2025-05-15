@@ -1,0 +1,4 @@
+# file: C:\Users\David\AppData\Roaming\Python\Python312\site-packages\icontract\_checkers.py
+# hypothesis_version: 6.131.17
+
+['CallableT', 'OLD', 'Old', '_', '_ARGS', '_IN_PROGRESS', '_KWARGS', '__', '__getattribute__', '__init__', '__new__', '__postconditions__', '__preconditions__', '__repr__', '__self__', '__setattr__', '__wrapped__', 'result', 'self', '{}:\n', '{}: ']

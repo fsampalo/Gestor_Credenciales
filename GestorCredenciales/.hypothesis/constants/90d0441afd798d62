@@ -1,0 +1,4 @@
+# file: C:\Users\David\AppData\Roaming\Python\Python312\site-packages\trio\from_thread.py
+# hypothesis_version: 6.131.17
+
+['check_cancelled', 'run', 'run_sync']

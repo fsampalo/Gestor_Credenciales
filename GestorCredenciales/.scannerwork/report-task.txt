@@ -1,0 +1,6 @@
+projectKey=GESTORCREDENCIALES
+serverUrl=https://85c2-188-26-222-232.ngrok-free.app
+serverVersion=25.5.0.107428
+dashboardUrl=https://85c2-188-26-222-232.ngrok-free.app/dashboard?id=GESTORCREDENCIALES
+ceTaskId=ace19144-f3a8-411b-be84-41a166b1d72a
+ceTaskUrl=https://85c2-188-26-222-232.ngrok-free.app/api/ce/task?id=ace19144-f3a8-411b-be84-41a166b1d72a

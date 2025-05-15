@@ -302,3 +302,411 @@
 2025-05-15 00:24:24,697 - INFO - Gestor de credenciales inicializado correctamente.
 2025-05-15 00:24:24,930 - INFO - Gestor de credenciales inicializado correctamente.
 2025-05-15 00:24:25,344 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:46:22,853 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:23,100 - WARNING - Intento de añadir credencial con contraseña débil para TestFail - UserFail
+2025-05-15 18:46:23,334 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:23,831 - INFO - Credencial añadida para DuplicadoServ - DuplicadoUser
+2025-05-15 18:46:24,065 - WARNING - Intento de añadir credencial duplicada para DuplicadoServ - DuplicadoUser
+2025-05-15 18:46:24,302 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:25,050 - INFO - Credencial añadida para NuevoServicio - NuevoUsuario
+2025-05-15 18:46:25,547 - INFO - Verificación de contraseña para NuevoServicio - NuevoUsuario: éxito
+2025-05-15 18:46:25,786 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:46:26,020 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:26,499 - INFO - Credencial añadida para TestServicio - TestUsuario
+2025-05-15 18:46:27,010 - INFO - Verificación de contraseña para TestServicio - TestUsuario: éxito
+2025-05-15 18:46:27,250 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:27,720 - INFO - Credencial añadida para ElimServ - ElimUser
+2025-05-15 18:46:28,194 - INFO - Verificación de contraseña para ElimServ - ElimUser: éxito
+2025-05-15 18:46:28,456 - INFO - Credencial eliminada para ElimServ - ElimUser
+2025-05-15 18:46:28,689 - WARNING - Intento de verificar credencial inexistente: ElimServ - ElimUser
+2025-05-15 18:46:28,924 - INFO - Lista de servicios solicitada.
+2025-05-15 18:46:29,164 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:29,410 - WARNING - Intento de eliminar credencial inexistente: NoExisteServ - NoExisteUser
+2025-05-15 18:46:29,646 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:29,900 - INFO - Lista de servicios solicitada.
+2025-05-15 18:46:30,390 - INFO - Credencial añadida para Servicio1 - userA
+2025-05-15 18:46:30,871 - INFO - Credencial añadida para Servicio2 - userB
+2025-05-15 18:46:31,352 - INFO - Credencial añadida para Servicio1 - userC
+2025-05-15 18:46:31,613 - INFO - Lista de servicios solicitada.
+2025-05-15 18:46:31,853 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:32,330 - INFO - Credencial añadida para ServicioTmp - UserTmp
+2025-05-15 18:46:32,570 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:46:32,804 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:46:33,040 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:46:33,281 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:46:33,510 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:33,994 - INFO - Credencial añadida para Servicio1 - Usuario1
+2025-05-15 18:46:34,481 - INFO - Credencial añadida para Servicio2 - Usuario2
+2025-05-15 18:46:34,983 - WARNING - Intento de verificar credencial inexistente: Servicio1 - Usuario1
+2025-05-15 18:46:35,210 - WARNING - Intento de verificar credencial inexistente: Servicio2 - Usuario2
+2025-05-15 18:46:35,449 - INFO - Lista de servicios solicitada.
+2025-05-15 18:46:35,684 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:36,156 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:46:36,635 - INFO - Credencial añadida para Servicio - Usuario
+2025-05-15 18:46:37,110 - INFO - Verificación de contraseña para Servicio - Usuario: éxito
+2025-05-15 18:46:37,354 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:37,583 - WARNING - Intento de verificar credencial inexistente: NoExisteServ - NoExisteUser
+2025-05-15 18:46:37,830 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:38,302 - INFO - Credencial añadida para VerifServ - VerifUser
+2025-05-15 18:46:38,804 - INFO - Verificación de contraseña para VerifServ - VerifUser: fallo
+2025-05-15 18:46:39,041 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:39,547 - INFO - Credencial añadida para GitHub - user1
+2025-05-15 18:46:39,780 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:46:40,032 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:46:40,270 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:46:40,514 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:46:40,759 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:41,001 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:43,387 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:44,980 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:45,212 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:45,442 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:45,672 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:45,910 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:46,144 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:46,390 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:46,630 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:46,875 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:47,131 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:47,381 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:47,614 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:47,851 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:48,091 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:48,321 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:48,570 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:48,820 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:49,050 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:49,281 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:49,521 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:49,759 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:50,000 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:50,240 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:50,482 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:50,764 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:51,000 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:51,234 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:51,461 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:51,701 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:51,940 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:52,170 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:52,414 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:52,682 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:52,911 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:53,145 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:53,389 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:53,624 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:53,878 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:54,114 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:54,361 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:54,591 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:54,852 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:55,080 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:55,330 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:55,573 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:55,813 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:56,074 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:56,311 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:56,557 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:46:56,795 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:57,261 - INFO - Credencial añadida para GitHub - user1
+2025-05-15 18:46:57,734 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:58,210 - INFO - Credencial añadida para ServicioRobusto - UserRobusto
+2025-05-15 18:46:58,691 - INFO - Verificación de contraseña para ServicioRobusto - UserRobusto: éxito
+2025-05-15 18:46:58,940 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:46:59,174 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_longitud - UserDebil_longitud
+2025-05-15 18:46:59,420 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_no_mayuscula - UserDebil_no_mayuscula
+2025-05-15 18:46:59,654 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_no_minuscula - UserDebil_no_minuscula
+2025-05-15 18:46:59,890 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_no_numero - UserDebil_no_numero
+2025-05-15 18:47:00,130 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_no_simbolo - UserDebil_no_simbolo
+2025-05-15 18:47:00,371 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_muy_corta - UserDebil_muy_corta
+2025-05-15 18:47:00,612 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_solo_numeros - UserDebil_solo_numeros
+2025-05-15 18:47:00,854 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_solo_letras_min - UserDebil_solo_letras_min
+2025-05-15 18:47:01,101 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_solo_letras_may - UserDebil_solo_letras_may
+2025-05-15 18:47:01,354 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:47:01,604 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:47:01,849 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:47:02,080 - WARNING - Intento de añadir credencial con contraseña débil para ServicioPwdVacia - UserPwdVacia
+2025-05-15 18:47:02,310 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:47:02,820 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:47:03,063 - WARNING - Intento de eliminar credencial inexistente: ServicioInexistenteParaElim - UsuarioCualquiera
+2025-05-15 18:47:03,307 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:47:03,557 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:47:04,041 - INFO - Credencial añadida para ServUnico1 - UserUnico1
+2025-05-15 18:47:04,285 - INFO - Lista de servicios solicitada.
+2025-05-15 18:47:04,512 - INFO - Credencial eliminada para ServUnico1 - UserUnico1
+2025-05-15 18:47:04,740 - INFO - Lista de servicios solicitada.
+2025-05-15 18:47:04,992 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:47:05,454 - INFO - Credencial añadida para ServicioExistente - UsuarioExistente
+2025-05-15 18:47:05,686 - WARNING - Intento de verificar credencial inexistente: ServicioExistente - UsuarioInexistente
+2025-05-15 18:57:24,501 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:24,727 - WARNING - Intento de añadir credencial con contraseña débil para TestFail - UserFail
+2025-05-15 18:57:24,966 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:25,426 - INFO - Credencial añadida para DuplicadoServ - DuplicadoUser
+2025-05-15 18:57:25,657 - WARNING - Intento de añadir credencial duplicada para DuplicadoServ - DuplicadoUser
+2025-05-15 18:57:25,895 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:26,586 - INFO - Credencial añadida para NuevoServicio - NuevoUsuario
+2025-05-15 18:57:27,068 - INFO - Verificación de contraseña para NuevoServicio - NuevoUsuario: éxito
+2025-05-15 18:57:27,302 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:57:27,539 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:28,007 - INFO - Credencial añadida para TestServicio - TestUsuario
+2025-05-15 18:57:28,477 - INFO - Verificación de contraseña para TestServicio - TestUsuario: éxito
+2025-05-15 18:57:28,714 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:29,197 - INFO - Credencial añadida para ElimServ - ElimUser
+2025-05-15 18:57:29,679 - INFO - Verificación de contraseña para ElimServ - ElimUser: éxito
+2025-05-15 18:57:29,913 - INFO - Credencial eliminada para ElimServ - ElimUser
+2025-05-15 18:57:30,147 - WARNING - Intento de verificar credencial inexistente: ElimServ - ElimUser
+2025-05-15 18:57:30,380 - INFO - Lista de servicios solicitada.
+2025-05-15 18:57:30,616 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:30,856 - WARNING - Intento de eliminar credencial inexistente: NoExisteServ - NoExisteUser
+2025-05-15 18:57:31,106 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:31,343 - INFO - Lista de servicios solicitada.
+2025-05-15 18:57:31,821 - INFO - Credencial añadida para Servicio1 - userA
+2025-05-15 18:57:32,296 - INFO - Credencial añadida para Servicio2 - userB
+2025-05-15 18:57:32,777 - INFO - Credencial añadida para Servicio1 - userC
+2025-05-15 18:57:33,018 - INFO - Lista de servicios solicitada.
+2025-05-15 18:57:33,263 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:33,746 - INFO - Credencial añadida para ServicioTmp - UserTmp
+2025-05-15 18:57:33,978 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:57:34,228 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:57:34,467 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:57:34,702 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:57:34,930 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:35,408 - INFO - Credencial añadida para Servicio1 - Usuario1
+2025-05-15 18:57:35,886 - INFO - Credencial añadida para Servicio2 - Usuario2
+2025-05-15 18:57:36,346 - WARNING - Intento de verificar credencial inexistente: Servicio1 - Usuario1
+2025-05-15 18:57:36,577 - WARNING - Intento de verificar credencial inexistente: Servicio2 - Usuario2
+2025-05-15 18:57:36,825 - INFO - Lista de servicios solicitada.
+2025-05-15 18:57:37,059 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:37,556 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:57:38,027 - INFO - Credencial añadida para Servicio - Usuario
+2025-05-15 18:57:38,517 - INFO - Verificación de contraseña para Servicio - Usuario: éxito
+2025-05-15 18:57:38,747 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:38,996 - WARNING - Intento de verificar credencial inexistente: NoExisteServ - NoExisteUser
+2025-05-15 18:57:39,238 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:39,704 - INFO - Credencial añadida para VerifServ - VerifUser
+2025-05-15 18:57:40,183 - INFO - Verificación de contraseña para VerifServ - VerifUser: fallo
+2025-05-15 18:57:40,427 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:40,888 - INFO - Credencial añadida para GitHub - user1
+2025-05-15 18:57:41,127 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:57:41,367 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:57:41,606 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:57:41,841 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 18:57:42,078 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:42,326 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:42,627 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:47,040 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:47,267 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:47,497 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:47,739 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:47,974 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:48,251 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:48,486 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:48,721 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:48,966 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:49,203 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:49,431 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:49,665 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:49,899 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:50,132 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:50,368 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:50,605 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:50,839 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:51,076 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:51,311 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:51,545 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:51,785 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:52,027 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:52,259 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:52,497 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:52,746 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:52,977 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:53,221 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:53,460 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:53,716 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:53,957 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:54,197 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:54,427 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:54,659 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:54,897 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:55,137 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:55,376 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:55,626 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:55,857 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:56,092 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:56,327 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:56,558 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:56,787 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:57,035 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:57,268 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:57,499 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:57,734 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:57,958 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:58,197 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:58,432 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 18:57:58,664 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:57:59,126 - INFO - Credencial añadida para GitHub - user1
+2025-05-15 18:57:59,598 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:58:00,075 - INFO - Credencial añadida para ServicioRobusto - UserRobusto
+2025-05-15 18:58:00,537 - INFO - Verificación de contraseña para ServicioRobusto - UserRobusto: éxito
+2025-05-15 18:58:00,786 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:58:01,017 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_longitud - UserDebil_longitud
+2025-05-15 18:58:01,259 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_no_mayuscula - UserDebil_no_mayuscula
+2025-05-15 18:58:01,506 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_no_minuscula - UserDebil_no_minuscula
+2025-05-15 18:58:01,756 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_no_numero - UserDebil_no_numero
+2025-05-15 18:58:01,987 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_no_simbolo - UserDebil_no_simbolo
+2025-05-15 18:58:02,223 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_muy_corta - UserDebil_muy_corta
+2025-05-15 18:58:02,469 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_solo_numeros - UserDebil_solo_numeros
+2025-05-15 18:58:02,698 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_solo_letras_min - UserDebil_solo_letras_min
+2025-05-15 18:58:02,937 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_solo_letras_may - UserDebil_solo_letras_may
+2025-05-15 18:58:03,177 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:58:03,409 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:58:03,666 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:58:03,905 - WARNING - Intento de añadir credencial con contraseña débil para ServicioPwdVacia - UserPwdVacia
+2025-05-15 18:58:04,156 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:58:04,628 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:58:04,888 - WARNING - Intento de eliminar credencial inexistente: ServicioInexistenteParaElim - UsuarioCualquiera
+2025-05-15 18:58:05,119 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:58:05,364 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:58:05,836 - INFO - Credencial añadida para ServUnico1 - UserUnico1
+2025-05-15 18:58:06,067 - INFO - Lista de servicios solicitada.
+2025-05-15 18:58:06,327 - INFO - Credencial eliminada para ServUnico1 - UserUnico1
+2025-05-15 18:58:06,571 - INFO - Lista de servicios solicitada.
+2025-05-15 18:58:06,811 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 18:58:07,277 - INFO - Credencial añadida para ServicioExistente - UsuarioExistente
+2025-05-15 18:58:07,530 - WARNING - Intento de verificar credencial inexistente: ServicioExistente - UsuarioInexistente
+2025-05-15 19:01:41,077 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:41,311 - WARNING - Intento de añadir credencial con contraseña débil para TestFail - UserFail
+2025-05-15 19:01:41,541 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:42,018 - INFO - Credencial añadida para DuplicadoServ - DuplicadoUser
+2025-05-15 19:01:42,258 - WARNING - Intento de añadir credencial duplicada para DuplicadoServ - DuplicadoUser
+2025-05-15 19:01:42,501 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:43,214 - INFO - Credencial añadida para NuevoServicio - NuevoUsuario
+2025-05-15 19:01:43,691 - INFO - Verificación de contraseña para NuevoServicio - NuevoUsuario: éxito
+2025-05-15 19:01:43,925 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 19:01:44,181 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:44,677 - INFO - Credencial añadida para TestServicio - TestUsuario
+2025-05-15 19:01:45,173 - INFO - Verificación de contraseña para TestServicio - TestUsuario: éxito
+2025-05-15 19:01:45,422 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:45,895 - INFO - Credencial añadida para ElimServ - ElimUser
+2025-05-15 19:01:46,372 - INFO - Verificación de contraseña para ElimServ - ElimUser: éxito
+2025-05-15 19:01:46,613 - INFO - Credencial eliminada para ElimServ - ElimUser
+2025-05-15 19:01:46,844 - WARNING - Intento de verificar credencial inexistente: ElimServ - ElimUser
+2025-05-15 19:01:47,081 - INFO - Lista de servicios solicitada.
+2025-05-15 19:01:47,321 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:47,576 - WARNING - Intento de eliminar credencial inexistente: NoExisteServ - NoExisteUser
+2025-05-15 19:01:47,801 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:48,043 - INFO - Lista de servicios solicitada.
+2025-05-15 19:01:48,531 - INFO - Credencial añadida para Servicio1 - userA
+2025-05-15 19:01:49,012 - INFO - Credencial añadida para Servicio2 - userB
+2025-05-15 19:01:49,482 - INFO - Credencial añadida para Servicio1 - userC
+2025-05-15 19:01:49,731 - INFO - Lista de servicios solicitada.
+2025-05-15 19:01:49,966 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:50,442 - INFO - Credencial añadida para ServicioTmp - UserTmp
+2025-05-15 19:01:50,682 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 19:01:50,912 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 19:01:51,166 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 19:01:51,406 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 19:01:51,642 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:52,125 - INFO - Credencial añadida para Servicio1 - Usuario1
+2025-05-15 19:01:52,591 - INFO - Credencial añadida para Servicio2 - Usuario2
+2025-05-15 19:01:53,061 - WARNING - Intento de verificar credencial inexistente: Servicio1 - Usuario1
+2025-05-15 19:01:53,313 - WARNING - Intento de verificar credencial inexistente: Servicio2 - Usuario2
+2025-05-15 19:01:53,551 - INFO - Lista de servicios solicitada.
+2025-05-15 19:01:53,811 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:54,322 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 19:01:54,821 - INFO - Credencial añadida para Servicio - Usuario
+2025-05-15 19:01:55,301 - INFO - Verificación de contraseña para Servicio - Usuario: éxito
+2025-05-15 19:01:55,555 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:55,812 - WARNING - Intento de verificar credencial inexistente: NoExisteServ - NoExisteUser
+2025-05-15 19:01:56,051 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:56,513 - INFO - Credencial añadida para VerifServ - VerifUser
+2025-05-15 19:01:56,985 - INFO - Verificación de contraseña para VerifServ - VerifUser: fallo
+2025-05-15 19:01:57,221 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:57,689 - INFO - Credencial añadida para GitHub - user1
+2025-05-15 19:01:57,923 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 19:01:58,161 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 19:01:58,391 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 19:01:58,635 - WARNING - Intento de autenticación fallido con clave maestra incorrecta.
+2025-05-15 19:01:58,861 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:59,102 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:01:59,372 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:01:59,912 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:00,154 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:00,386 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:00,622 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:00,866 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:01,141 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:01,383 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:01,628 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:01,863 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:02,111 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:02,352 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:02,595 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:02,829 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:03,052 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:03,291 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:03,528 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:03,797 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:04,021 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:04,256 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:04,491 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:04,721 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:04,963 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:05,202 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:05,444 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:05,692 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:05,929 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:06,168 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:06,404 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:06,642 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:06,898 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:07,141 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:07,381 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:07,625 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:07,881 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:08,149 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:08,391 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:08,634 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:08,871 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:09,106 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:09,345 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:09,580 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:09,813 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:10,059 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:10,293 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:10,616 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:11,061 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:11,522 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:11,970 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:12,442 - WARNING - Intento de añadir credencial con contraseña débil para FuzzServ - FuzzUser
+2025-05-15 19:02:12,922 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:02:13,888 - INFO - Credencial añadida para GitHub - user1
+2025-05-15 19:02:14,874 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:02:15,915 - INFO - Credencial añadida para ServicioRobusto - UserRobusto
+2025-05-15 19:02:16,951 - INFO - Verificación de contraseña para ServicioRobusto - UserRobusto: éxito
+2025-05-15 19:02:17,445 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:02:18,032 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_longitud - UserDebil_longitud
+2025-05-15 19:02:18,542 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_no_mayuscula - UserDebil_no_mayuscula
+2025-05-15 19:02:19,121 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_no_minuscula - UserDebil_no_minuscula
+2025-05-15 19:02:19,632 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_no_numero - UserDebil_no_numero
+2025-05-15 19:02:20,136 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_no_simbolo - UserDebil_no_simbolo
+2025-05-15 19:02:20,641 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_muy_corta - UserDebil_muy_corta
+2025-05-15 19:02:21,082 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_solo_numeros - UserDebil_solo_numeros
+2025-05-15 19:02:21,632 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_solo_letras_min - UserDebil_solo_letras_min
+2025-05-15 19:02:22,174 - WARNING - Intento de añadir credencial con contraseña débil para ServicioDebil_solo_letras_may - UserDebil_solo_letras_may
+2025-05-15 19:02:22,653 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:02:23,122 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:02:23,584 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:02:24,031 - WARNING - Intento de añadir credencial con contraseña débil para ServicioPwdVacia - UserPwdVacia
+2025-05-15 19:02:24,501 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:02:25,562 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:02:26,032 - WARNING - Intento de eliminar credencial inexistente: ServicioInexistenteParaElim - UsuarioCualquiera
+2025-05-15 19:02:26,521 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:02:27,002 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:02:27,905 - INFO - Credencial añadida para ServUnico1 - UserUnico1
+2025-05-15 19:02:28,372 - INFO - Lista de servicios solicitada.
+2025-05-15 19:02:28,849 - INFO - Credencial eliminada para ServUnico1 - UserUnico1
+2025-05-15 19:02:29,312 - INFO - Lista de servicios solicitada.
+2025-05-15 19:02:29,790 - INFO - Gestor de credenciales inicializado correctamente.
+2025-05-15 19:02:30,711 - INFO - Credencial añadida para ServicioExistente - UsuarioExistente
+2025-05-15 19:02:31,161 - WARNING - Intento de verificar credencial inexistente: ServicioExistente - UsuarioInexistente
