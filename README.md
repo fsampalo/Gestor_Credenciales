@@ -29,7 +29,7 @@ En este proyecto, aplicamos **STDD**:
 ## Uso
 1. Arrancamos las pruebas unitarias:
    ```bash
-   python -m pytest tests/gestor_credenciales/test_seguridad_gestor_credenciales.py -v
+   python -m coverage run -m unittest discover -s tests/gestor_credenciales -p "test_*.py"
    ```
 
 ## Estructura del Proyecto
